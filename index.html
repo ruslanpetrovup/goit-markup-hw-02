@@ -6,31 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOIT-HW-01</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <!-- Шапка -->
     <header>
-        <a href="">WebStudio</a>
+        <a href="" class="logo">Web<span class="logo-span">Studio</span></a>
         <nav>
-        <ul>
-            <li>Студия</li>
-            <li>Портфолио</li>
-            <li>Контакты</li>
+        <ul class="head-menu">
+            <li ><a href="" class="head-link">Студия</a></li>
+            <li ><a href="" class="head-link">Портфолио</a></li>
+            <li ><a href="" class="head-link">Контакты</a></li>
         </ul>
         </nav>
-        <a href="mail">info@devstudio.com</a>
-        <a href="phone">+38 096 111 11 11</a>
+        <ul class="head-contacts">
+            <li><a href="mail" class="contact-link">info@devstudio.com</a></li>
+            <li><a href="phone" class="contact-link">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
     <!-- Банер -->
-    <section>
+    <section class="banner">
         <h1>Эффективные решения для вашего бизнеса</h1>
         <button type="button">Заказать услугу</button>
     </section>
     <!-- Чем мы занимаемся -->
     
-    <section>
-        <ul>
+    <section class="work">
+        <ul class="work-line">
             <li>
                 <h2>Внимание к деталям</h2>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -48,7 +53,7 @@
                 <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
-        <h3>Чем мы занимаемся</h3>
+        <h3 class="work-heading">Чем мы занимаемся</h3>
         <ul>
             <li><img src="./images/1img.jpg" alt="компьютер и планшет" width="370" height="294"></li>
             <li><img src="./images/2img.jpg" alt="ноутбук и телефон" width="370" height="294"></li>
@@ -57,9 +62,9 @@
     </section>
 
     <!-- Наша команда  -->
-    <section>
-        <h1>Наша команда</h1>
-        <ul>
+    <section class="team">
+        <h1 class="team-heading">Наша команда</h1>
+        <ul class="team-line">
             <li>
                 <img src="./images/igor.jpg" alt="Игорь" width="270" height="260">
                 <h2>Игорь Демьяненко</h2>
@@ -85,7 +90,7 @@
     </main>
     <!-- Подвал -->
     <footer>
-        <a href="logo">WebStudio</a>
+        <a href="logo" class="logo">Web<span class="logo-span">Studio</span></a>
         <address>
             г. Киев, пр-т Леси Украинки, 26 <br>
             info@example.com <br>
