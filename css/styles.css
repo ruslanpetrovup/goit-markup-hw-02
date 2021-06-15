@@ -71,7 +71,7 @@ body {
 .work li {
   list-style: none;
 }
-.work-line h2 {
+.work-line h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -106,7 +106,7 @@ body {
   color: var(--lead-text-color);
 }
 .team-line h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -143,4 +143,21 @@ body {
 }
 .product-line .link {
   text-decoration: none;
+}
+.line {
+  list-style: none;
+}
+.line .button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--bg-color);
+}
+
+.address {
+  font-style: normal;
 }
